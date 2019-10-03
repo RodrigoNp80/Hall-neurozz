@@ -1,0 +1,6 @@
+  n1 = int(input('\33[31m Digite um valor :'))
+n2 = int(input('\33[31m Digite outro valor :\33[m'))
+n = n1 + n2
+print('=-='*20)
+print(f'\33[32m A soma entre \33[m \33[31m {n1} \33[me \33[31m{n2} \33[m é \33[34m {n}\33[m')
+print('=-='*20)
