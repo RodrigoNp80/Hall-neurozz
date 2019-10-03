@@ -1,0 +1,2 @@
+  n = float(input('Qual a medida em metros : '))
+print(f'Corresponde á* \33[31m{n*100:.2f}\33[m cm, e \33[31m{n*1000:.2f}\33[mmm ')
