@@ -1,0 +1,5 @@
+  n = str(input('\33[32m Olá digite o seu nome :  '))
+print('\33[32m É um prazer te conhecer, \33[m\33[31m{}!\33[m'.format(n))
+
+n = str(input('\33[31m Olá digite seu nome :'))
+print(f"\33[32m É um prazer te conhecer, \33[m\33[31m{n}!")
